@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f0c8d2a-ef3b-4902-bb45-41835d0a664e/deploy-status)](https://app.netlify.com/sites/steven-reddy/deploys)
+
 # Portfolio
 
 This is my personal portfolio website, showing of my skills and projects i've created.
