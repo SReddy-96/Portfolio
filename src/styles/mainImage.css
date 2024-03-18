@@ -1,0 +1,14 @@
+#image {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #9fd4b4;
+}
+
+.i {
+
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}

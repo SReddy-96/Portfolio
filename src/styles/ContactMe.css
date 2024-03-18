@@ -1,0 +1,10 @@
+.socialIconContactMe {
+    color: #9fd4b4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-right: 15px;
+}
+
+.socialIconContactMe:hover {
+    color: black;
+}

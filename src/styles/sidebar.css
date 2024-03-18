@@ -1,0 +1,20 @@
+.drawer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.socialIcon {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-right: 15px;
+}
+
+.socialIcon:hover {
+    color: lightslategrey;
+}
+
