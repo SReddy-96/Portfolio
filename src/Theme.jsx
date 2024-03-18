@@ -13,6 +13,15 @@ const theme = createTheme({
     typography: {
         fontFamily: 'Urbanist',
     },
+    breakpoints: {
+        values: {
+            xs: 0,
+            sm: 600,
+            md: 916,
+            lg: 1200,
+            xl: 1536,
+        },
+    },
 });
 
 export default theme;

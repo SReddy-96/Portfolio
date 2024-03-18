@@ -111,28 +111,28 @@ function ResponsiveDrawer(props) {
             <AppBar
                 position="fixed"
                 sx={{
-                    width: { sm: `calc(100% - ${drawerWidth})` },
-                    ml: { sm: `${drawerWidth}` },
+                    width: { md: `calc(100% - ${drawerWidth})` },
+                    ml: { md: `${drawerWidth}` },
                 }}
             >
-                <Toolbar sx={{ display: { sm: 'none' }, bgcolor: 'secondary.main', gap: '30vw'  }}>
+                <Toolbar sx={{ display: { md: 'none' }, bgcolor: 'secondary.main', gap: '35vw',  }}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
                         edge="start"
                         onClick={handleDrawerToggle}
-                        sx={{ mr: 2, display: { sm: 'none' }, }}
+                        sx={{ mr: 2, display: { md: 'none' }, }}
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Box className="LogoImage" sx={{ display: { sm: 'none' }, mt: 1}}>
+                    <Box className="LogoImage" sx={{ display: { md: 'none' }, mt: 1}}>
                         <img src="images/logo.png" alt="logo image" style={{ maxWidth: '100%', maxHeight: '40px' }} />
                     </Box>
                 </Toolbar>
             </AppBar>
             <Box
                 component="nav"
-                sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+                sx={{ width: { md: drawerWidth }, flexShrink: { sm: 0 } }}
                 aria-label="navbar"
             >
                 {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
@@ -145,7 +145,7 @@ function ResponsiveDrawer(props) {
                         keepMounted: true, // Better open performance on mobile.
                     }}
                     sx={{
-                        display: { xs: 'block', sm: 'none' },
+                        display: { xs: 'block', sm: 'block', md: 'none' },
                         '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth, bgcolor: 'secondary.main' },
                     }}
                 >
@@ -154,7 +154,7 @@ function ResponsiveDrawer(props) {
                 <Drawer
                     variant="permanent"
                     sx={{
-                        display: { xs: 'none', sm: 'block' },
+                        display: { xs: 'none', sm: 'none', md: 'block' },
                         '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth, bgcolor: 'secondary.main', },
                     }}
                     open
@@ -167,7 +167,7 @@ function ResponsiveDrawer(props) {
             {/* main bit */}
             <Box
                 component="main"
-                sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth})` } }}
+                sx={{ flexGrow: 1, p: 3, width: { md: `calc(100% - ${drawerWidth})` } }}
                 id="main"
             >
                 <MainImage />
