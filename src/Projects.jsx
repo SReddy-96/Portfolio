@@ -42,10 +42,10 @@ function Projects() {
             backend: "Flask, Python, Sqlite3",
         },
         {
-            title: "Yelp Camp",
+            title: "CampsiteExplorer",
             image: "images/YelpCampScreenshot.png",
             description: "A campsite directory for people to add, view, edit and delete their own campsites.",
-            link: "https://github.com/SReddy-96/YelpCamp",
+            link: "https://github.com/SReddy-96/CampsiteExplorer",
             frontend: "HTML, CSS, JavaScript, Bootstrap",
             backend: "Nodejs, EJS, Express.js, MongoDB, Mongoose ",
         },

@@ -12,7 +12,7 @@ function MainImage() {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
-                mt: '10vh',
+                mt: '5vh',
                 height: '100vh',
             }}>
             <div id="image">
