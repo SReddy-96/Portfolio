@@ -115,7 +115,7 @@ function ResponsiveDrawer(props) {
                     ml: { md: `${drawerWidth}` },
                 }}
             >
-                <Toolbar sx={{ display: { md: 'none' }, bgcolor: 'secondary.main', gap: '35vw',  }}>
+                <Toolbar sx={{ display: { md: 'none' }, bgcolor: 'secondary.main', gap: '35vw', width: 'inherit'  }}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
