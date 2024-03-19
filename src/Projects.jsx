@@ -43,7 +43,7 @@ function Projects() {
         },
         {
             title: "CampsiteExplorer",
-            image: "images/YelpCampScreenshot.png",
+            image: "images/CampsiteExplorer.png",
             description: "A campsite directory for people to add, view, edit and delete their own campsites.",
             link: "https://github.com/SReddy-96/CampsiteExplorer",
             frontend: "HTML, CSS, JavaScript, Bootstrap",
