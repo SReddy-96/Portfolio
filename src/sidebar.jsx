@@ -115,13 +115,13 @@ function ResponsiveDrawer(props) {
                     ml: { md: `${drawerWidth}` },
                 }}
             >
-                <Toolbar sx={{ display: { md: 'none' }, bgcolor: 'secondary.main', gap: '35vw', width: 'inherit'  }}>
+                <Toolbar sx={{ display: { md: 'none' }, bgcolor: 'secondary.main', gap: '38vw', width: 'inherit'  }}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
                         edge="start"
                         onClick={handleDrawerToggle}
-                        sx={{ mr: 2, display: { md: 'none' }, }}
+                        sx={{ display: { md: 'none' }, }}
                     >
                         <MenuIcon />
                     </IconButton>
@@ -167,7 +167,7 @@ function ResponsiveDrawer(props) {
             {/* main bit */}
             <Box
                 component="main"
-                sx={{ flexGrow: 1, p: 3, width: { md: `calc(100% - ${drawerWidth})` } }}
+                sx={{ flexGrow: 1, width: { md: `calc(100% - ${drawerWidth})` } }}
                 id="main"
             >
                 <MainImage />
