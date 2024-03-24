@@ -21,6 +21,7 @@ import MainImage from './mainImage'
 import Projects from './Projects.jsx';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import XIcon from '@mui/icons-material/X';
 import './styles/sidebar.css'
 
 const drawerWidth = '50vw';
@@ -101,6 +102,7 @@ function ResponsiveDrawer(props) {
                 <a className="socialIcon" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
                 <a className="socialIcon" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
                 <a className="socialIcon" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
+                <a className="socialIcon" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
             </Box>
         </Box>
     );
