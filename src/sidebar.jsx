@@ -105,10 +105,10 @@ function ResponsiveDrawer(props) {
 
 
             <Box sx={{ my: 3 }}>
-                <a className="socialIcon" aria-label="GitHub link" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
-                <a className="socialIcon" aria-label="Instagram link" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
-                <a className="socialIcon" aria-label="Linkedin link" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
-                <a className="socialIcon" aria-label="X link" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
+                <a className="socialIcon" aria-label="GitHub link" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="medium" /></a>
+                <a className="socialIcon" aria-label="Instagram link" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="medium" /></a>
+                <a className="socialIcon" aria-label="Linkedin link" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="medium" /></a>
+                <a className="socialIcon" aria-label="X link" href="https://www.x.com/SReddy_96"><XIcon fontSize="medium" /></a>
             </Box>
         </Box >
     );
