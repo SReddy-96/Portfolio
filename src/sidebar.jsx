@@ -61,50 +61,56 @@ function ResponsiveDrawer(props) {
             <Divider variant='middle' flexItem sx={{ mt: 2 }} />
 
             <List sx={{ mt: 1 }}>
-                <Link to="main" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <ListItem disablePadding>
+                <ListItem disablePadding>
+                    <Link to="main" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
                         <ListItemButton>
                             <ArrowRightOutlinedIcon />
                             <ListItemText primary="Home" />
                         </ListItemButton>
-                    </ListItem>
-                </Link>
+                    </Link>
+                </ListItem>
 
-                <Link to="AboutMe" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <ListItem disablePadding>
+
+                <ListItem disablePadding>
+                    <Link to="AboutMe" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
                         <ListItemButton>
                             <ArrowRightOutlinedIcon />
                             <ListItemText primary="About Me" />
                         </ListItemButton>
-                    </ListItem>
-                </Link>
+                    </Link>
+                </ListItem>
 
-                <Link to="Projects" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <ListItem disablePadding>
+
+                <ListItem disablePadding>
+                    <Link to="Projects" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
                         <ListItemButton>
                             <ArrowRightOutlinedIcon />
                             <ListItemText primary="Projects" />
                         </ListItemButton>
-                    </ListItem>
-                </Link>
+                    </Link>
+                </ListItem>
 
-                <Link to="ContactMe" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <ListItem disablePadding>
+
+                <ListItem disablePadding>
+                    <Link to="ContactMe" smooth duration={500} style={{ textDecoration: 'none', color: 'inherit' }}>
                         <ListItemButton>
                             <ArrowRightOutlinedIcon />
                             <ListItemText primary="Contact Me" />
                         </ListItemButton>
-                    </ListItem>
-                </Link>
+                    </Link>
+                </ListItem>
+                
             </List>
 
+
+
             <Box sx={{ my: 3 }}>
-                <a className="socialIcon" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
-                <a className="socialIcon" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
-                <a className="socialIcon" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
-                <a className="socialIcon" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
+                <a className="socialIcon" alt="Githib link" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
+                <a className="socialIcon" alt ="Instagram link" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
+                <a className="socialIcon" alt="Linkedin link" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
+                <a className="socialIcon" alt="X link" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
             </Box>
-        </Box>
+        </Box >
     );
 
     return (
@@ -117,7 +123,7 @@ function ResponsiveDrawer(props) {
                     ml: { md: `${drawerWidth}` },
                 }}
             >
-                <Toolbar sx={{ display: { md: 'none' }, bgcolor: 'secondary.main', gap: '38vw', width: 'inherit'  }}>
+                <Toolbar sx={{ display: { md: 'none' }, bgcolor: 'secondary.main', gap: '38vw', width: 'inherit' }}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
@@ -127,7 +133,7 @@ function ResponsiveDrawer(props) {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Box className="LogoImage" sx={{ display: { md: 'none' }, mt: 1}}>
+                    <Box className="LogoImage" sx={{ display: { md: 'none' }, mt: 1 }}>
                         <img src="images/logo.png" alt="logo image" style={{ maxWidth: '100%', maxHeight: '40px' }} />
                     </Box>
                 </Toolbar>
