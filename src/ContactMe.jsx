@@ -29,10 +29,10 @@ function ContactMe() {
                 Feel free to reach out to me via any of the following platforms:
             </Typography>
             <Box sx={{ mt: 4 }} variant="">
-                <a className="socialIconContactMe" alt="Githib link" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
-                <a className="socialIconContactMe" alt ="Instagram link" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
-                <a className="socialIconContactMe" alt="Linkedin link" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
-                <a className="socialIconContactMe" alt="X link" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
+                <a className="socialIconContactMe" aria-label="GitHub link" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
+                <a className="socialIconContactMe" aria-label="Instagram link" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
+                <a className="socialIconContactMe" aria-label="Linkedin link" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
+                <a className="socialIconContactMe" aria-label="X link" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
             </Box>
 
             <br />

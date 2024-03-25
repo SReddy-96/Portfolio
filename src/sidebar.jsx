@@ -105,10 +105,10 @@ function ResponsiveDrawer(props) {
 
 
             <Box sx={{ my: 3 }}>
-                <a className="socialIcon" alt="Githib link" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
-                <a className="socialIcon" alt ="Instagram link" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
-                <a className="socialIcon" alt="Linkedin link" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
-                <a className="socialIcon" alt="X link" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
+                <a className="socialIcon" aria-label="GitHub link" href="https://github.com/SReddy-96" ><GitHubIcon fontSize="large" /></a>
+                <a className="socialIcon" aria-label="Instagram link" href="https://instagram.com/justa_steve/"><InstagramIcon fontSize="large" /></a>
+                <a className="socialIcon" aria-label="Linkedin link" href="https://www.linkedin.com/in/steven-reddy-912b0b299"><LinkedInIcon fontSize="large" /></a>
+                <a className="socialIcon" aria-label="X link" href="https://www.x.com/SReddy_96"><XIcon fontSize="large" /></a>
             </Box>
         </Box >
     );
@@ -134,7 +134,7 @@ function ResponsiveDrawer(props) {
                         <MenuIcon />
                     </IconButton>
                     <Box className="LogoImage" sx={{ display: { md: 'none' }, mt: 1 }}>
-                        <img src="images/logo.png" alt="logo image" style={{ maxWidth: '100%', maxHeight: '40px' }} />
+                        <img src="images/logo.webp" alt="logo image" style={{ maxWidth: '100%', maxHeight: '40px' }} />
                     </Box>
                 </Toolbar>
             </AppBar>

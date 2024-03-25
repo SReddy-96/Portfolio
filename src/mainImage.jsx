@@ -16,7 +16,7 @@ function MainImage() {
                 height: '100vh',
             }}>
             <div id="image">
-                <img className="i" src="images/selfimage.jpg" alt="Image of Steven Reddy" />
+                <img fetchpriority="high" className="i" src="images/selfimage.webp" alt="Image of Steven Reddy" />
             </div>
             <SwipeDownIcon fontSize="large" sx={{ my: 12 }} />
         </Box>

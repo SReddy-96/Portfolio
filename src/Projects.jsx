@@ -35,7 +35,7 @@ function Projects() {
     const ProjectList = [
         {
             title: "KettleWork30",
-            image: "images/KettleWork30.png",
+            image: "images/KettleWork30.webp",
             description: "This is a 30-Minute KettleBell Workout Generator web application!",
             link: "https://github.com/SReddy-96/KettleWork30",
             frontend: "HTML, CSS, JavaScript, Bootstrap",
@@ -43,7 +43,7 @@ function Projects() {
         },
         {
             title: "CampsiteExplorer",
-            image: "images/CampsiteExplorer.png",
+            image: "images/CampsiteExplorer.webp",
             description: "A campsite directory for people to add, view, edit and delete their own campsites.",
             link: "https://github.com/SReddy-96/CampsiteExplorer",
             frontend: "HTML, CSS, JavaScript, Bootstrap",
@@ -51,7 +51,7 @@ function Projects() {
         },
                 {
             title: "Portfolio",
-            image: "images/home.png",
+            image: "images/home.webp",
             description: "This is my personal portfolio website, showing of my skills and projects i've created.",
             link: "https://github.com/SReddy-96/Portfolio",
             frontend: "HTML, CSS, JavaScript, MUI, Vite, React",
