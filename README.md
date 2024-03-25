@@ -105,3 +105,15 @@ npm run dev
 
 Explore the Application:
 - You can now explore the various features and functionalities of the web application.
+
+## Optimizing
+<p align="center">
+    <img src="README_images/lighthouseReport.png">
+</p>
+
+With the use of Google's Lighthouse tool, I optimized my website by resizing images to the correct dimensions for the application and converting PNG files to WebP format for better rendering and faster load times. 
+
+By utilizing <link> tags in the index.html, I preloaded the main image of the site, minimizing buffering and ensuring a quick load time.
+One of the main focuses was improving accessibility, double-checking aria-label attributes and ensuring proper tagging throughout the site. 
+
+A new skill I learned was crafting effective meta description tags, an important addition to increase the SEO score and make the site more discoverable on Google's web search. Overall, Lighthouse helped me identify and address performance, accessibility, and SEO opportunities, resulting in a more optimized and user-friendly experience.
