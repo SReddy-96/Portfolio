@@ -79,6 +79,7 @@ function Projects() {
                 return (
                     <Card key={index} raised sx={{ maxWidth: 400, mt: 3 }}>
                         <CardMedia
+                            fetchpriority="low" 
                             component="img"
                             height="auto"
                             image={image} // Replace <image-here> with actual image URL
