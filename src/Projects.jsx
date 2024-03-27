@@ -31,7 +31,7 @@ function Projects() {
     const handleExpandClick = (index) => {
         setExpandedIndex(expandedIndex === index ? -1 : index);
     };
-    
+
     const ProjectList = [
         {
             title: "KettleWork30",
@@ -49,13 +49,21 @@ function Projects() {
             frontend: "HTML, CSS, JavaScript, Bootstrap",
             backend: "Nodejs, EJS, Express.js, MongoDB, Mongoose ",
         },
-                {
+        {
             title: "Portfolio",
             image: "images/home.webp",
             description: "This is my personal portfolio website, showing of my skills and projects i've created.",
             link: "https://github.com/SReddy-96/Portfolio",
             frontend: "HTML, CSS, JavaScript, MUI, Vite, React",
             backend: "Nodejs, NPM",
+        },
+        {
+            title: "Job Site",
+            image: "images/jobsiteHome.webp",
+            description: "This project is a Job scrapping web application using my own React template and axios to access the data from https://remoteok.io/api to display the job vacancies of tech jobs.",
+            link: "https://github.com/SReddy-96/jobsite",
+            frontend: "HTML, CSS, JavaScript, Bootstrap, React",
+            backend: "Nodejs, NPM, Expressjs, Webpack, Babel, Axios",
         },
     ];
 
@@ -75,11 +83,11 @@ function Projects() {
             {ProjectList.map((item, index) => {
                 const { title, image, description, link, frontend, backend } = item;
                 const isExpanded = expandedIndex === index;
-                
+
                 return (
                     <Card key={index} raised sx={{ maxWidth: 400, mt: 3 }}>
                         <CardMedia
-                            fetchpriority="low" 
+                            fetchpriority="low"
                             component="img"
                             height="auto"
                             image={image} // Replace <image-here> with actual image URL
@@ -112,7 +120,7 @@ function Projects() {
 
                             <ExpandMore
                                 expand={isExpanded}
-                                onClick={ () => handleExpandClick(index)}
+                                onClick={() => handleExpandClick(index)}
                                 aria-expanded={isExpanded}
                                 aria-label="show more"
                             >
