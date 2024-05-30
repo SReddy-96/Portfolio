@@ -30,7 +30,7 @@ function AboutMe() {
                 color="secondary"
                 variant="contained"
                 target="_blank"
-                href="https://drive.google.com/file/d/1DeD9W837cRy8k6PuhAI1WfTcpminOQyS/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Oc_hOyKS6aD5NiS3mWFBDh4e0gYMu5wW/view?usp=sharing"
                 sx={{ ':hover': { color: 'white', }, mt: 1 }}>
                 
                 <AssignmentIndOutlinedIcon sx={{ mr: 1 }}/>
