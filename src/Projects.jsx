@@ -65,6 +65,14 @@ function Projects() {
             frontend: "HTML, CSS, JavaScript, Bootstrap, React",
             backend: "Nodejs, NPM, Expressjs, Webpack, Babel, Axios",
         },
+        {
+            title: "Sow & Grow",
+            image: "images/sowAndGrow.webp",
+            description: "Sow & Grow is the gardener's best friend. Easily add your plants and key details, then let the app create a personalized year planner. See at a glance when to sow, water, and care for each plant throughout the seasons.",
+            link: "https://github.com/SReddy-96/Sow-and-Grow",
+            frontend: "HTML, CSS, JavaScript, Bootstrap",
+            backend: "Django, Python",
+        },
     ];
 
     return (
